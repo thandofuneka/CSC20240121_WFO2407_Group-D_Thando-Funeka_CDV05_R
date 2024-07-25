@@ -238,6 +238,7 @@ header {
     right: 0;
     z-index: 100;
 
+
     transform: translateX(100%);
     transition: transform 250ms cubic-bezier(0.5, 0, 0.5, 1);
 }
@@ -277,9 +278,10 @@ header {
 
 .nav-open .nav {
     transform: translateX(0);
+    opacity: .85;
 }
 
-.nav-open .nav-toggle {
+ .nav-open .nav-toggle {
     position: fixed;
 }
 
@@ -466,4 +468,18 @@ footer a {
 
 .social-list__link {
     padding: .5em;
+}
+
+/*Individual Portfolio item styles*/
+
+.portfolio-item-individual {
+    padding: 0 2em 2em;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.portfolio-item-individual p {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
