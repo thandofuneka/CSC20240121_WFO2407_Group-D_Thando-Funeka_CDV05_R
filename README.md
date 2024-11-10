@@ -1,4 +1,6 @@
-# [SDF07] Build Your Portfolio MVP
+# [CDV05] Build My Portfolio
+
+From SDF07 Project
 
 ![alt text](portfolio.png)
 
