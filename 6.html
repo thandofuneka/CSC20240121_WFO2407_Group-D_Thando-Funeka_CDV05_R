@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevThando Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+           <img src="./img/Preview.png" alt="">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+            </ul> 
+        </nav>
+    </header>
+
+    <!--Intro-->
+    <section class="intro" >
+        <h1 class="section__title section__title--intro">
+             <strong>CodeSpacePetsInstagram</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">CSS Grid & Flex</p>
+        <img src="./img/CodeSpacePetsInstagram.gif" alt="Project " class="intro__img">
+    </section>
+    
+    <div class="portfolio-item-individual">
+        <p>It is a website for viewing Codespace Pets Images. </p>
+        <img src="./img/CodeSpacePetsInstagram.gif" alt="Project">
+        <p>Making use of Flex and Grid layouts and relative and absolute positioning to help with the overall look of the page.</p>
+        <a class="repo_link" href="https://github.com/thandofuneka/Module_6R_CSC20240121_WFO2407_GroupD_Thando-Funeka_SDF06_R.git">Find the Repo Here</a>
+    </div>
+
+     <!--Footer-->
+     <footer>
+        <a href="mailto:thandofuneka1@gmail.com" class="footer__link">Email Me</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://codepen.io/Thando-Funeka">
+                    <i class="fab fa-codepen"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/thandofuneka">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.linkedin.com/in/thando-funeka-9b30ba256/">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+    <script src="./index.js"></script>
+    
+</body>
+</html>
